@@ -25,7 +25,7 @@ app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader(
 // Configure the HTTP request pipeline. 
 if (app.Environment.IsDevelopment())
 {
-    app.UseDeveloperExceptionPage();
+    
     app.UseSwagger();
     app.UseSwaggerUI();
 }
